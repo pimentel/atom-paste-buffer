@@ -1,0 +1,28 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus
+# for more details
+'context-menu':
+  'atom-text-editor': [
+    { 'label': 'Copy', 'command': 'paste-buffer:copy' }
+    { 'label': 'Cut', 'command': 'paste-buffer:cut' }
+    { 'label': 'Paste front', 'command': 'paste-buffer:pasteFront' }
+    { 'label': 'Paste back', 'command': 'paste-buffer:pasteBack' }
+    { 'label': 'Pop front', 'command': 'paste-buffer:popFront' }
+    { 'label': 'Pop back', 'command': 'paste-buffer:popBack' }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'paste-buffer'
+      'submenu': [
+        { 'label': 'Copy', 'command': 'paste-buffer:copy' }
+        { 'label': 'Cut', 'command': 'paste-buffer:cut' }
+        { 'label': 'Paste front', 'command': 'paste-buffer:pasteFront' }
+        { 'label': 'Paste back', 'command': 'paste-buffer:pasteBack' }
+        { 'label': 'Pop front', 'command': 'paste-buffer:popFront' }
+        { 'label': 'Pop back', 'command': 'paste-buffer:popBack' }
+        { 'label': 'Clear buffer', 'command': 'paste-buffer:clear' }
+      ]
+    ]
+  }
+]

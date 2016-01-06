@@ -1,0 +1,25 @@
+{
+  "name": "paste-buffer",
+  "main": "./lib/paste-buffer",
+  "version": "0.1.0",
+  "description": "A simple paste buffer allowing you to store multiple clipboards into a buffer",
+  "keywords": [
+    "paste",
+    "buffer",
+    "clipboard"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "paste-buffer:cut",
+      "paste-buffer:copy",
+      "paste-buffer:clear"
+    ]
+  },
+  "repository": "https://github.com/pimentel/paste-buffer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
