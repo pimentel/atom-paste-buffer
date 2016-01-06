@@ -15,7 +15,7 @@
       "paste-buffer:clear"
     ]
   },
-  "repository": "https://github.com/pimentel/paste-buffer",
+  "repository": "https://github.com/pimentel/atom-paste-buffer",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
